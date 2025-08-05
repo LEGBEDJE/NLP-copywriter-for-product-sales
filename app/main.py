@@ -2,6 +2,7 @@
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
+from fastapi.responses import FileResponse
 
 app = FastAPI()
 
@@ -30,6 +31,8 @@ async def generate_copy(product: Product):
     """
     return {"copy": template}
 
+from fastapi.responses import FileResponse
+
 @app.get("/")
 async def read_root():
-    return {"message": "Welcome to the NLP Copywriter API!"}
+    return FileResponse('/home/legbedje/Documents/nlp-copywriter/static/index.html')
