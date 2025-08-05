@@ -19,7 +19,7 @@ This project is a simple web application that uses a FastAPI backend to generate
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/your-username/nlp-copywriter.git
+    git clone https://github.com/LEGBEDJE//nlp-copywriter-for-product-sales.git
     ```
 2.  Navigate to the project directory:
     ```bash
