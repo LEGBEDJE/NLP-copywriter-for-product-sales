@@ -38,8 +38,4 @@ This project is a simple web application that uses a FastAPI backend to generate
     ```
 2.  Open your browser and navigate to `http://127.0.0.1:8000`
 
-## How to Contribute
-
-Contributions are welcome! Please open an issue or submit a pull request.
-
 
