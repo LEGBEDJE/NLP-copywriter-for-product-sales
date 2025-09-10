@@ -12,7 +12,7 @@ This project is a simple web application that uses a FastAPI backend to generate
 
 ### Prerequisites
 
-*   Python 3.8+
+*   Python 3.9+
 *   pip
 
 ### Installation
